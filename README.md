@@ -18,18 +18,18 @@ Command Line 활용능력（Heroku 배치，Run Django）
 Git 활용능력（Heroku 배치）
 
 # 사용할 도구
-Microsoft Azure: QnAMaker：AI 언어 이해 모듈，透過輸入題庫及答案，丟進去給QnAMaker訓練，輸入類似問題時會自動比對出對應的答案。
+Microsoft Azure: QnAMaker：AI 언어 이해 모듈，질문과 답을 통해 QnAMaker를 훈련하고 입력한 내용과 유사한 경우 자동으로 어울리는 답을 출력하게 함.
 
-Python + Django：搭配Python Line Bot API ，開發自動回應LINE訊息的後端服務Server。
+Python + Django：Python Line Bot API를 사용하여 LINE 메세지에 자동으로 응답하는 백엔드 서비스 서버를 개발.
 
-Heroku + Git：部署我們的Linebot後端服務Server
+Heroku + Git：Linebot 백엔드 서비스 서버 배포.
 
-Line Developer管理：須申請Line Developer帳號（或Line生活圈帳號）
+Line Developer 관리：Line Developer 계정 (또는 Line@ 계벙）
 
-# 相關教學文章
+# 관련 학습 글
 
-[01建造QnaMaker](https://medium.com/@hatsukiotowa/手把手教你搭建聊天機器人-linebot-python-qnamaker-heroku-01建造qnamaker-99b88e8993b4)
+[01 QnaMaker만들기](https://medium.com/@hatsukiotowa/手把手教你搭建聊天機器人-linebot-python-qnamaker-heroku-01建造qnamaker-99b88e8993b4)
 
-[02建造LineBot Backend Server 並部署至Heroku](https://medium.com/@hatsukiotowa/手把手教你搭建聊天機器人-linebot-python-qnamaker-heroku-02建造linebot-backend-server-並部署至heroku-59b36357cd9d)
+[02 Heroku에 LineBot Backend Server 배포하기](https://medium.com/@hatsukiotowa/手把手教你搭建聊天機器人-linebot-python-qnamaker-heroku-02建造linebot-backend-server-並部署至heroku-59b36357cd9d)
 
-[03串接QnAMaker Service](https://medium.com/@hatsukiotowa/手把手教你搭建聊天機器人-linebot-python-qnamaker-heroku-03串接qnamaker-service-beb892cd72ee)
+[03 QnAMaker Service 연결하기](https://medium.com/@hatsukiotowa/手把手教你搭建聊天機器人-linebot-python-qnamaker-heroku-03串接qnamaker-service-beb892cd72ee)
