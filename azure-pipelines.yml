@@ -5,11 +5,6 @@
 
 trigger:
 - master
-- task: AzureAppServiceManage@0
-  inputs:
-    azureSubscription: 'chic - Microsoft Azure Internal Consumption (13f49de7-43da-47a6-90be-47230900ef21)'
-    Action: 'Restart Azure App Service'
-    WebAppName: 'appservicespecialistossgunicorn16vgu4u6yf4u3c'
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
@@ -90,3 +85,9 @@ stages:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
+          - task: AzureAppServiceManage@0
+            inputs:
+              azureSubscription: 'chic - Microsoft Azure Internal Consumption (13f49de7-43da-47a6-90be-47230900ef21)'
+              Action: 'Restart Azure App Service'
+              WebAppName: 'appservicespecialistossgunicorn16vgu4u6yf4u3c'
+    
